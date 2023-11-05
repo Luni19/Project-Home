@@ -7,27 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <header>
-        <nav>
+        <nav class="navigation">
             <svg class="mainLogo">
              <use href="./img/symbol-defs.svg#icon-main-logo"></use>
             </svg>
-            <ul>
-                <li>ГЛАВНАЯ</li>
-                <li>ГАЛЕРЕЯ</li>
-                <li>ПРОЕКТЫ</li>
-                <li>СЕРТИФИКАТЫ</li>
-                <li>КОНТАКТЫ</li>
+            <ul class="navigation-list">
+                <li class="navigation-element">ГЛАВНАЯ</li>
+                <li class="navigation-element">ГАЛЕРЕЯ</li>
+                <li class="navigation-element">ПРОЕКТЫ</li>
+                <li class="navigation-element">СЕРТИФИКАТЫ</li>
+                <li class="navigation-element">КОНТАКТЫ</li>
             </ul>
         </nav>
     </header>
-<section>
-    <h1>PROJECT HOME</h1>
-    <ul>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
+<section class="hero-section">
+    <div class="button-container">
+    <h1 class="main-text">PROJECT<span class="home-word">HOME</span></h1>
+    <ul class="button-list"> 
+        <li><button type="button" class="button-left">
+            <svg class="arrow-svg">
+                <use href="/img/icon-l-r.svg#icon-ico-shape-1"></use>
+            </svg>
+        </button></li>
+        <li><button type="button" class="button-right">
+            <svg class="arrow-svg">
+                <use href="/img/icon-l-r.svg#icon-ico-shape"></use></svg></button></li>
     </ul>
+</div>
+<div class="button-and-picture">
+    <button type="button" class="look-button"></button>
     <img src="./img/hero_img.png" alt="image">
+</div>
 </section>
 <section>
     <div>
@@ -108,5 +120,6 @@
         <p>© 2019 Digital Project. Все права защищены.</p>
     </div>
  </footer>
+</div>
 </body>
 </html>

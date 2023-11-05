@@ -1,7 +1,24 @@
 @font-face {
   font-family: TT Hoves;
-  src: url(/fonts/TTHoves-Black.woff2);
-  src: url(/fonts/TTHoves-Black.woff);
+  src: url(/fonts/TTHoves-Medium.woff);
+  src: url(/fonts/TTHoves-Medium.woff2);
+}
+header{
+  padding-bottom: 45px;
+}
+.container{
+  Width: 1440px;
+  Height:4052px;
+  margin: 0;
+  /* margin-bottom: 0; */
+  padding: 0;
+  font-family: TT Hoves;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
 }
 h1,
 h2,
@@ -24,7 +41,111 @@ ul {
 }
 
 .mainLogo{
+  margin-left: 136px;
   width: 68.552px;
-height: 41.527px;
+  height: 41.527px;
+  flex-shrink: 0;
+}
+
+.navigation{
+  display: flex;
+}
+
+.navigation-list{
+  display: flex;
+  margin-left: 330px;
+  text-align: center;
+  align-items: center;
+  gap: 60px;
+  list-style-type: none;
+}
+
+.navigation-element {
+  display: inline-block;
+  color: #000000; 
+  line-height: 1;
+  text-decoration: none; 
+  cursor: pointer;
+}
+.navigation-element:after {
+  background-color: #000000;
+  display: block;
+  content: "";
+  height: 1px; 
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.navigation-element:hover:after,
+.navigation-element:focus:after {
+  width: 100%;
+}
+
+.hero-section{
+  display: flex;
+  position: relative;
+}
+.main-text{
+  color: var(--Gray-4, #BDBDBD);
+font-family: TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 64px; /* 100% */
+padding-top: 336px;
+margin-right: 122px;
+margin-left: 135px;
+
+}
+
+.home-word{
+  color: var(--Gray-1, #333);
+font-family: TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 100% */
+display: block;
+}
+
+.button-list{
+  list-style-type: none;
+  display: flex;
+  gap:23px;
+  margin-left: 135px;
+  margin-top: 90px;
+}
+
+.button-left{
+  border: 1px solid #F2F2F2;
+  background: #FFF;
+  width: 53px;
+height: 53px;
 flex-shrink: 0;
+}
+
+.button-right{
+  border: 1px solid #F2F2F2;
+  background: #FFF;
+  width: 53px;
+height: 53px;
+flex-shrink: 0;
+}
+
+.arrow-svg{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.look-button{
+  width: 222px;
+height: 71px;
+flex-shrink: 0;
+position: absolute;
+bottom: 0; /* Размещаем кнопку внизу */
+left: 0; /* Размещаем кнопку слева */
+}
+.button-and-picture{
+  position: relative;
 }
