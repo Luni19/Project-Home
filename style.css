@@ -41,17 +41,18 @@ h1, p, ul, li, div {
 
 .navigation{
   display: flex;
-  margin-top: 29px;
+  margin-top: 44.69px;
+  margin-bottom: 45px;
+  
 }
 
 .navigation-list{
   display: flex;
-  margin-left: 344px;
+  margin-left: 330px;
   text-align: center;
   align-items: center;
   gap: 60px;
   list-style-type: none;
-  margin-bottom: 45.66px;
 }
 
 .navigation-element {
