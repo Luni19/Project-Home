@@ -3,9 +3,19 @@
   src: url(/fonts/TTHoves-Medium.woff);
   src: url(/fonts/TTHoves-Medium.woff2);
 }
-header{
-  padding-bottom: 45px;
+* {
+  margin: 0;
+  padding: 0;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+h1, p, ul, li, div {
+  margin: 0;
+  padding: 0;
+}
+
 .container{
   Width: 1440px;
   Height:4052px;
@@ -20,28 +30,10 @@ header{
   letter-spacing: 2.4px;
   text-transform: uppercase;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  /* margin-bottom: 0; */
-  padding: 0;
-  font-family: TT Hoves;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 12px; /* 100% */
-  letter-spacing: 2.4px;
-  text-transform: uppercase;
-}
+
 
 .mainLogo{
-  margin-left: 136px;
+  margin-left: 136.45px;
   width: 68.552px;
   height: 41.527px;
   flex-shrink: 0;
@@ -49,15 +41,17 @@ ul {
 
 .navigation{
   display: flex;
+  margin-top: 29px;
 }
 
 .navigation-list{
   display: flex;
-  margin-left: 330px;
+  margin-left: 344px;
   text-align: center;
   align-items: center;
   gap: 60px;
   list-style-type: none;
+  margin-bottom: 45.66px;
 }
 
 .navigation-element {
@@ -86,6 +80,11 @@ ul {
   display: flex;
   position: relative;
 }
+.hero-img{
+  width: 770px;
+height: 829px;
+flex-shrink: 0;
+}
 .main-text{
   color: var(--Gray-4, #BDBDBD);
 font-family: TT Hoves;
@@ -93,7 +92,7 @@ font-size: 64px;
 font-style: normal;
 font-weight: 300;
 line-height: 64px; /* 100% */
-padding-top: 336px;
+margin-top: 336px;
 margin-right: 122px;
 margin-left: 135px;
 
@@ -169,6 +168,7 @@ transition: 1s
 
 .button-and-picture{
   position: relative;
+  margin-bottom: 120px;
 }
 .button-svg-arrow{
   width: 24px;
