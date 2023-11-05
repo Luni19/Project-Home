@@ -1,3 +1,8 @@
+@font-face {
+  font-family: TT Hoves;
+  src: url(/fonts/TTHoves-Black.woff2);
+  src: url(/fonts/TTHoves-Black.woff);
+}
 h1,
 h2,
 h3,
@@ -9,4 +14,17 @@ ul {
   margin: 0;
   /* margin-bottom: 0; */
   padding: 0;
+  font-family: TT Hoves;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.mainLogo{
+  width: 68.552px;
+height: 41.527px;
+flex-shrink: 0;
 }
