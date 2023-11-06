@@ -176,3 +176,16 @@ transition: 1s
   height: 24px;
 
 }
+
+.about-company-container{
+  background: var(--1, #FBFBFB);
+  width: 1170px;
+  height: 435px;
+  flex-shrink: 0;
+  margin-left: 135px;
+  display: flex;
+}
+
+.about-company-imagelist{
+  
+}
