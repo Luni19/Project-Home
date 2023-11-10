@@ -17,7 +17,7 @@ body {
   width: 1440px;
   height: 102px;
   margin: 0 auto; 
-  background-color: #f0f0f0; 
+  font-family: tt hoves;
 }
 
 
@@ -162,9 +162,7 @@ transition: 1s
 }
 
 .about-company-container{
-  background: var(--1, #FBFBFB);
-  width: 1170px;
-  height: 435px;
+ background: var(--1, #FBFBFB);
   flex-shrink: 0;
   margin-left: 135px;
   display: flex;
