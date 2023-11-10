@@ -11,25 +11,15 @@ body {
   margin: 0;
   padding: 0;
 }
-h1, p, ul, li, div {
-  margin: 0;
-  padding: 0;
+
+
+.container {
+  width: 1440px;
+  height: 102px;
+  margin: 0 auto; 
+  background-color: #f0f0f0; 
 }
 
-.container{
-  Width: 1440px;
-  Height:4052px;
-  margin: 0;
-  /* margin-bottom: 0; */
-  padding: 0;
-  font-family: TT Hoves;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 12px; /* 100% */
-  letter-spacing: 2.4px;
-  text-transform: uppercase;
-}
 
 
 .mainLogo{
@@ -117,21 +107,15 @@ display: block;
   margin-top: 90px;
 }
 
-.button-left{
+.button-left,
+.button-right {
   border: 1px solid #F2F2F2;
   background: #FFF;
   width: 53px;
-height: 53px;
-flex-shrink: 0;
+  height: 53px;
+  flex-shrink: 0;
 }
 
-.button-right{
-  border: 1px solid #F2F2F2;
-  background: #FFF;
-  width: 53px;
-height: 53px;
-flex-shrink: 0;
-}
 
 .arrow-svg{
   width: 24px;
