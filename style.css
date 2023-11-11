@@ -169,5 +169,14 @@ transition: 1s
 }
 
 .about-company-imagelist{
-  
+  display: flex;
+  list-style-type: none;
+}
+.first-image-list{
+  list-style-type: none;
+
+}
+.second-image{
+  margin-left: 30px;
+  list-style-type: none;
 }
