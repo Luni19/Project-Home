@@ -1,4 +1,14 @@
 @font-face {
+  font-family: 'San Francisco Pro Display Light';
+  src: url('SFProDisplay-Light.eot');
+  src: url('SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+  url('SFProDisplay-Light.woff') format('woff'),
+  url('SFProDisplay-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
   font-family: TT Hoves;
   src: url(/fonts/TTHoves-Medium.woff);
   src: url(/fonts/TTHoves-Medium.woff2);
@@ -232,4 +242,102 @@ margin-bottom: 20px;
 }
 .about-company-button:hover {
   transform: scale(1.2); 
+}
+.Main-goals{
+  margin-top: 120px;
+  margin-left: 135px; 
+}
+.main-tasks-text{
+  color: var(--Gray-4, #BDBDBD);
+font-family: TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 64px; 
+
+}
+.number{
+  color: var(--Gray-6, #F2F2F2);
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.tasks-list{
+  list-style-type: none;
+  display: flex;
+  margin-top: 60px;
+  gap: 187px;
+}
+.tasks-list-fragment{
+  color: var(--Gray-1, #333);
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 163.636% */
+max-width: 279px;
+
+}
+.tasks-list-fragmet{
+  display: flex;
+}
+.tasks-list-fragmet-text{
+  color: var(--Gray-1, #333);
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 163.636% */
+margin-left: 30px;
+margin-top: 60px;
+max-width: 279px;
+}
+.tasks-list-fragmet-text-second{
+  color: var(--Gray-1, #333);
+  font-family: TT Hoves;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 163.636% */
+  margin-left: 30px;
+  margin-top: 60px;
+  max-width: 448px;
+}
+.our-products-section{
+  margin-top: 120px;
+  margin-left: 135px; 
+}
+.our-products-text{
+  color: var(--Gray-4, #BDBDBD);
+  font-family: TT Hoves;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; 
+}
+.our-products-first-list{
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+.our-products-second-list{
+  list-style-type: none;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.image-link-conteiner{
+  width: 570px;
+  height: 255px;
+  background-image: url(img/our_project1.png);
+  color: #FFF;
+  font-family: TT Hoves;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  opacity: 0.8;
+
 }
