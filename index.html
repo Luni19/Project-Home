@@ -89,7 +89,7 @@
         </section>
 
         <section class="our-products-section">
-            <div>
+            <div class="galley-container">
                 <h2 class="our-products-text">Наши проекты</h2>
                 <ul class="our-products-first-list">
                     <li><div class="image-link-conteiner"><p class="details">ДОСУГОВЫЙ
@@ -105,24 +105,27 @@
                     <li><img src="/img/our_project4.png" alt="image"></li>
                     <li><img src="/img/our_project5.png" alt="image"></li>
                 </ul>
-                <button type="button">ВСЕ ПРОЕКТЫ</button>
+                <button class="all-projects-button" type="button">ВСЕ ПРОЕКТЫ  <svg class="arrow-svg-all-projects">
+                    <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
+                </svg></button>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Связаться с нами</h2>
-                <label for="">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                </label>
+        <section class="contacts-section">
+                <h2 class="contacts-with-us-text">Связаться с нами</h2>
+                <div class="image-and-picture-container">
+                <form class="contacts-form" for="">
+                    <input class="contacts-input" type="text" placeholder="Имя">
+                    <input class="contacts-input" type="text" placeholder="Номер телефона*">
+                    <input class="contacts-input" type="text" placeholder="E-mail*">
+                    <input class="contacts-input" type="text" placeholder="Интересующий товар/услуга">
+                    <input class="contacts-input" type="text" placeholder="Сообщение*">
+                </form>
+                <img src="./img/contacts_with_us.png" alt="">
+            </div>
                 <Input type="checkbox">Отправляя заявку Вы соглашаетесь
                     с политикой конфиденциальности</Input>
-                <button type="button">ОТПРАВИТЬ</button>
-            </div>
+                <button type="button">ОТПРАВИТЬ</button>       
         </section>
 
         <footer>
@@ -153,7 +156,6 @@
                     </li>
                 </ul>
                 <p>© 2019 Digital Project. Все права защищены.</p>
-            </div>
         </footer>
     </div>
 </body>
