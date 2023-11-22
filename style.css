@@ -443,6 +443,21 @@ line-height: 64px;
   width: 24px;
 height: 23.262px;
 flex-shrink: 0;
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+.svg-checkbox{
+  display: inline-block;
+  background-color: #fff;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  border: 1.25px solid var(--secondary-text-color);
+  border-radius: 2px;
+  transition-property: fill, border, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-text-area{
   background: #F3F3F3;
@@ -476,4 +491,5 @@ flex-shrink: 0;
   letter-spacing: 0.42px;
   max-width: 331px;
   max-height: 34px;
+  position: relative;
 }
