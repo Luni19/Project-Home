@@ -413,6 +413,7 @@ line-height: 64px;
 }
 .contacts-section{
   margin-top: 120px;
+  margin-left: 135px;
 }
 .image-and-picture-container{
   display: flex;
@@ -422,6 +423,7 @@ line-height: 64px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 22px;
 }
 .contacts-input{
   background: #F3F3F3;
@@ -436,4 +438,42 @@ line-height: 64px;
   padding-left: 21px;
   width: 391px;
   height: 46px;
+}
+.checkbox-input{
+  width: 24px;
+height: 23.262px;
+flex-shrink: 0;
+}
+.contacts-text-area{
+  background: #F3F3F3;
+  border: none;
+  color: #8D8D8D;
+  font-family: TT Hoves;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  padding-left: 21px;
+  resize: none;
+  width: 391px;
+  height: 147px;
+  flex-shrink: 0;
+  padding-top: 14px;
+  padding-left: 21px;
+}
+.privacy-conteiner{
+  display: block;
+  align-items: center;
+}
+.privacy-checkbox{
+  color: #333;
+  font-family: TT Hoves;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  max-width: 331px;
+  max-height: 34px;
 }
