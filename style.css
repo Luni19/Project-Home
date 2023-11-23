@@ -459,6 +459,10 @@ appearance: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.svg-checkbox:checked{
+  fill: #fff;
+  border: none;
+}
 .contacts-text-area{
   background: #F3F3F3;
   border: none;
@@ -492,4 +496,7 @@ appearance: none;
   max-width: 331px;
   max-height: 34px;
   position: relative;
+  display: flex;
+  gap: 16px;
+  margin-top: 22px;
 }
