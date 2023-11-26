@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial?styles=143137');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Open+Sans&display=swap');
 @font-face {
@@ -10,12 +11,8 @@
   font-style: normal;
   }
 
-@font-face {
-  font-family: TT Hoves;
-  src: url(/fonts/TTHoves-Medium.woff);
-  src: url(/fonts/TTHoves-Medium.woff2);
-}
-* {
+
+* { 
   margin: 0;
   padding: 0;
 }
@@ -28,7 +25,7 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto; 
-  font-family: tt hoves;
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
 }
 
 
@@ -70,7 +67,7 @@ body {
   height: 1px; 
   width: 0%;
   -webkit-transition: width .3s ease-in-out;
-  -moz--transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;  
   transition: width .3s ease-in-out;
 }
 .navigation-element:hover:after,
