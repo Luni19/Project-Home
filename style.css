@@ -51,6 +51,8 @@ body {
   align-items: center;
   gap: 60px;
   list-style-type: none;
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+  letter-spacing: 2.4px;
 }
 
 .navigation-element {
@@ -59,6 +61,7 @@ body {
   line-height: 1;
   text-decoration: none; 
   cursor: pointer;
+
 }
 .navigation-element:after {
   background-color: #000000;
@@ -86,25 +89,23 @@ flex-shrink: 0;
 }
 .main-text{
   color: var(--Gray-4, #BDBDBD);
-font-family: TT Hoves;
+font-family:  'TT Hoves Pro Trial Variable', sans-serif;
 font-size: 64px;
 font-style: normal;
 font-weight: 300;
-line-height: 64px; /* 100% */
+line-height: 64px; 
 margin-top: 336px;
-margin-right: 122px;
+margin-right: 100px;
 margin-left: 135px;
 
 }
 
 .home-word{
   color: var(--Gray-1, #333);
-font-family: TT Hoves;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: 64px; /* 100% */
-display: block;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  display: block;
 }
 
 .button-list{
@@ -132,9 +133,7 @@ display: block;
 }
 .look-button{
   color: var(--Gray-1, #333);
-font-family: TT Hoves;
 font-size: 12px;
-font-style: normal;
 font-weight: 400;
 line-height: 12px; 
 letter-spacing: 2.4px;
@@ -163,6 +162,7 @@ cursor: pointer;
 .button-and-picture{
   position: relative;
   margin-bottom: 120px;
+  
 }
 .button-svg-arrow{
   width: 24px;
@@ -200,7 +200,7 @@ cursor: pointer;
 }
 .about-company-tittle{
 color: var(--Gray-4, #BDBDBD);
-font-family: TT Hoves;
+font-family: 'TT Hoves Pro Trial Variable', sans-serif;
 font-size: 64px;
 font-style: normal;
 font-weight: 300;
@@ -209,7 +209,7 @@ margin-top: 30px;
 }
 .about-company-text{
   color: #000;
-font-family: TT Hoves;
+font-family:'TT Hoves Pro Trial Variable', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -221,7 +221,7 @@ margin-bottom: 20px;
 }
 .about-company-button{
   color: var(--Gray-1, #333);
-  font-family: TT Hoves;
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -249,11 +249,11 @@ margin-bottom: 20px;
 }
 .main-tasks-text{
   color: var(--Gray-4, #BDBDBD);
-font-family: TT Hoves;
-font-size: 64px;
-font-style: normal;
-font-weight: 300;
-line-height: 64px; 
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; 
 
 }
 .number{
@@ -271,11 +271,10 @@ line-height: normal;
 }
 .tasks-list-fragment{
   color: var(--Gray-1, #333);
-font-family: TT Hoves;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 36px; /* 163.636% */
+line-height: 36px; 
 max-width: 279px;
 
 }
@@ -284,22 +283,18 @@ max-width: 279px;
 }
 .tasks-list-fragmet-text{
   color: var(--Gray-1, #333);
-font-family: TT Hoves;
 font-size: 22px;
-font-style: normal;
 font-weight: 400;
-line-height: 36px; /* 163.636% */
+line-height: 36px; 
 margin-left: 30px;
 margin-top: 60px;
 max-width: 279px;
 }
 .tasks-list-fragmet-text-second{
   color: var(--Gray-1, #333);
-  font-family: TT Hoves;
   font-size: 22px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 163.636% */
+  line-height: 36px; 
   margin-left: 30px;
   margin-top: 60px;
   max-width: 448px;
@@ -310,9 +305,7 @@ max-width: 279px;
 }
 .our-products-text{
   color: var(--Gray-4, #BDBDBD);
-  font-family: TT Hoves;
   font-size: 64px;
-  font-style: normal;
   font-weight: 300;
   line-height: 64px; 
 }
@@ -332,6 +325,11 @@ max-width: 279px;
   background:linear-gradient( to right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8) ), url(./img/our_project1.png);
   max-width: 570px;
   max-height: 255px;
+  transition: 1s;
+cursor: pointer;
+}
+.image-link-conteiner:hover{
+  transform: scale(1.2); 
 }
 .button-our-projects{
   flex-shrink: 0;
@@ -351,13 +349,15 @@ max-width: 279px;
   padding-left: 79px;
   padding-bottom: 53px;
   margin-top: 14px;
-  cursor: pointer;
+  cursor: pointer;  
+  transition: 1s;
+}
+.button-our-projects:hover{
+  transform: scale(1.2); 
 }
 .details{
    color: #FFF;
-  font-family: TT Hoves;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 64px;
   padding-top: 48px;
@@ -372,9 +372,7 @@ max-width: 279px;
 }
 .all-projects-button{
   color: #FFF;
-font-family: TT Hoves;
 font-size: 12px;
-font-style: normal;
 font-weight: 400;
 line-height: 12px; /* 100% */
 letter-spacing: 2.4px;
@@ -392,6 +390,11 @@ padding-left: 39px;
 gap: 12px;
 border: none;
 margin-left: 948px; 
+transition: 1s;
+cursor: pointer;  
+}
+.all-projects-button:hover{
+  transform: scale(1.2); 
 }
 .arrow-svg-all-projects{
   width: 24px;
@@ -401,7 +404,6 @@ fill: #FFF;
 }
 .contacts-with-us-text{
   color: var(--Gray-4, #BDBDBD);
-font-family: TT Hoves;
 font-size: 64px;
 font-style: normal;
 font-weight: 300;
@@ -425,9 +427,7 @@ line-height: 64px;
   background: #F3F3F3;
   border: none;
   color: #8D8D8D;
-  font-family: TT Hoves;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.56px;
@@ -482,11 +482,8 @@ line-height: 64px;
   background: #F3F3F3;
   border: none;
   color: #8D8D8D;
-  font-family: TT Hoves;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.56px;
   padding-left: 21px;
   resize: none;
@@ -499,9 +496,7 @@ line-height: 64px;
 
 .privacy-checkbox {
   color: #333;
-  font-family: TT Hoves;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.42px;
@@ -514,9 +509,7 @@ line-height: 64px;
 }
 .privacy-button{
   color: #FFF;
-font-family: TT Hoves;
 font-size: 12px;
-font-style: normal;
 font-weight: 400;
 line-height: 12px; /* 100% */
 letter-spacing: 2.4px;
@@ -534,7 +527,12 @@ padding-left: 39px;
 gap: 12px;
 border: none;
 margin-bottom: 120px;
+transition: 1s;
+cursor: pointer;
 } 
+.privacy-button:hover{
+  transform: scale(1.2); 
+}
 footer{
    background: #2C2C2C;
 }
@@ -552,9 +550,7 @@ footer{
 .nav-footer{
   list-style-type: none;
   color: #FFF;
-  font-family: TT Hoves;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; 
   letter-spacing: 0.42px;
@@ -576,9 +572,7 @@ line-height: normal;
   margin-top: 58px;
   list-style-type: none;
   color: #FFF;
-  font-family: TT Hoves;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; 
   letter-spacing: 0.42px;
@@ -628,9 +622,7 @@ margin-right: 14px;
 }
 .social-text{
   color: #FFF;
-font-family: TT Hoves;
 font-size: 16px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-top:  58px;
@@ -665,4 +657,7 @@ max-height: 20px;
 }
 .social-conteiner{
   margin-left: 71px;
+}
+footer{
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
 }
