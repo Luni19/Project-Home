@@ -5,46 +5,48 @@
   font-family: 'San Francisco Pro Display Light';
   src: url('SFProDisplay-Light.eot');
   src: url('SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
-  url('SFProDisplay-Light.woff') format('woff'),
-  url('SFProDisplay-Light.ttf') format('truetype');
+    url('SFProDisplay-Light.woff') format('woff'),
+    url('SFProDisplay-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
 
-
-* { 
+* {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
   padding: 0;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .container {
   width: 1440px;
-  margin: 0 auto; 
+  margin: 0 auto;
   font-family: 'TT Hoves Pro Trial Variable', sans-serif;
 }
 
+/* HEADER */
 
-
-.mainLogo{
+.mainLogo {
   margin-left: 136.45px;
   width: 68.552px;
   height: 41.527px;
   flex-shrink: 0;
 }
 
-.navigation{
+.navigation {
   display: flex;
   margin-top: 44.69px;
   margin-bottom: 45px;
-  
 }
 
-.navigation-list{
+.navigation-list {
   display: flex;
   margin-left: 330px;
   text-align: center;
@@ -57,50 +59,48 @@ body {
 
 .navigation-element {
   display: inline-block;
-  color: #000000; 
+  color: #000000;
   line-height: 1;
-  text-decoration: none; 
+  text-decoration: none;
   cursor: pointer;
-
 }
 .navigation-element:after {
   background-color: #000000;
   display: block;
-  content: "";
-  height: 1px; 
+  content: '';
+  height: 1px;
   width: 0%;
-  -webkit-transition: width .3s ease-in-out;
-  -moz--transition: width .3s ease-in-out;  
-  transition: width .3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
 }
 .navigation-element:hover:after,
 .navigation-element:focus:after {
   width: 100%;
 }
 
-.hero-section{
+/* HERO-SECTION */
+
+.hero-section {
   display: flex;
   position: relative;
 }
-.hero-img{
+.hero-img {
   width: 770px;
-height: 829px;
-flex-shrink: 0;
+  height: 829px;
+  flex-shrink: 0;
 }
-.main-text{
-  color: var(--Gray-4, #BDBDBD);
-font-family:  'TT Hoves Pro Trial Variable', sans-serif;
-font-size: 64px;
-font-style: normal;
-font-weight: 300;
-line-height: 64px; 
-margin-top: 336px;
-margin-right: 100px;
-margin-left: 135px;
-
+.main-text {
+  color: var(--Gray-4, #bdbdbd);
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  margin-top: 336px;
+  margin-right: 100px;
+  margin-left: 135px;
 }
 
-.home-word{
+.home-word {
   color: var(--Gray-1, #333);
   font-size: 64px;
   font-weight: 700;
@@ -108,124 +108,122 @@ margin-left: 135px;
   display: block;
 }
 
-.button-list{
+.button-list {
   list-style-type: none;
   display: flex;
-  gap:23px;
+  gap: 23px;
   margin-left: 135px;
   margin-top: 90px;
 }
 
 .button-left,
 .button-right {
-  border: 1px solid #F2F2F2;
-  background: #FFF;
+  border: 1px solid #f2f2f2;
+  background: #fff;
   width: 53px;
   height: 53px;
   flex-shrink: 0;
 }
 
-
-.arrow-svg{
+.arrow-svg {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
 }
-.look-button{
+.look-button {
   color: var(--Gray-1, #333);
-font-size: 12px;
-font-weight: 400;
-line-height: 12px; 
-letter-spacing: 2.4px;
-text-transform: uppercase;
-width: 222px;
-height: 71px;
-flex-shrink: 0;
-position: absolute;
-bottom: 0; 
-left: 0; 
-display: flex;
-padding-left: 50px;
-text-align: center;
-align-items: center;
-gap: 12px;
-border: none;
-transition: 1s;
-cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  width: 222px;
+  height: 71px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding-left: 50px;
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
 }
-
 
 .look-button:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
-.button-and-picture{
+.button-and-picture {
   position: relative;
   margin-bottom: 120px;
-  
 }
-.button-svg-arrow{
+.button-svg-arrow {
   width: 24px;
   height: 24px;
-
 }
 
-.about-company-container{
- background: var(--1, #FBFBFB);
+/* ABOUT-COMPANY-SECTION  */
+
+.about-company-container {
+  background: var(--1, #fbfbfb);
   flex-shrink: 0;
   margin-left: 135px;
   display: flex;
   width: 1170px;
 }
-.about-company-text-container{
+.about-company-text-container {
   margin-left: 30px;
 }
 
-.about-company-imagelist{
+.about-company-imagelist {
   display: flex;
   list-style-type: none;
   margin-left: 100px;
 }
-.first-image-list{
+.first-image-list {
   list-style-type: none;
   margin-top: 30px;
 }
-.second-image-list{
+.second-image-list {
   margin-left: 30px;
   list-style-type: none;
   margin-top: 60px;
 }
-.second-image{
+.second-image {
   margin-top: 30px;
 }
-.about-company-tittle{
-color: var(--Gray-4, #BDBDBD);
-font-family: 'TT Hoves Pro Trial Variable', sans-serif;
-font-size: 64px;
-font-style: normal;
-font-weight: 300;
-line-height: 64px;
-margin-top: 30px;
+.about-company-tittle {
+  color: var(--Gray-4, #bdbdbd);
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px;
+  margin-top: 30px;
 }
-.about-company-text{
+.about-company-text {
   color: #000;
-font-family:'TT Hoves Pro Trial Variable', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-max-width: 400px;
-max-height: 200px;
-margin-top: 20px;
-margin-bottom: 20px; 
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  max-width: 400px;
+  max-height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.about-company-button{
+.about-company-button {
   color: var(--Gray-1, #333);
   font-family: 'TT Hoves Pro Trial Variable', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 12px; 
+  line-height: 12px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   width: 222px;
@@ -241,99 +239,108 @@ margin-bottom: 20px;
   cursor: pointer;
 }
 .about-company-button:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
-.Main-goals{
+
+/* MAIN-TASKS-SECTION */
+
+.Main-goals {
   margin-top: 120px;
-  margin-left: 135px; 
+  margin-left: 135px;
 }
-.main-tasks-text{
-  color: var(--Gray-4, #BDBDBD);
+.main-tasks-text {
+  color: var(--Gray-4, #bdbdbd);
   font-family: 'TT Hoves Pro Trial Variable', sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 300;
-  line-height: 64px; 
-
+  line-height: 64px;
 }
-.number{
-  color: var(--Gray-6, #F2F2F2);
-font-size: 200px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.number {
+  color: var(--Gray-6, #f2f2f2);
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.tasks-list{
+.tasks-list {
   list-style-type: none;
   display: flex;
   margin-top: 60px;
   gap: 187px;
 }
-.tasks-list-fragment{
+.tasks-list-fragment {
   color: var(--Gray-1, #333);
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px; 
-max-width: 279px;
-
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  max-width: 279px;
 }
-.tasks-list-fragmet{
+.tasks-list-fragmet {
   display: flex;
 }
-.tasks-list-fragmet-text{
-  color: var(--Gray-1, #333);
-font-size: 22px;
-font-weight: 400;
-line-height: 36px; 
-margin-left: 30px;
-margin-top: 60px;
-max-width: 279px;
-}
-.tasks-list-fragmet-text-second{
+.tasks-list-fragmet-text {
   color: var(--Gray-1, #333);
   font-size: 22px;
   font-weight: 400;
-  line-height: 36px; 
+  line-height: 36px;
+  margin-left: 30px;
+  margin-top: 60px;
+  max-width: 279px;
+}
+.tasks-list-fragmet-text-second {
+  color: var(--Gray-1, #333);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
   margin-left: 30px;
   margin-top: 60px;
   max-width: 448px;
 }
-.our-products-section{
+
+/* GALLERY-SECTION */
+
+.our-products-section {
   margin-top: 120px;
   margin-left: 135px;
 }
-.our-products-text{
-  color: var(--Gray-4, #BDBDBD);
+.our-products-text {
+  color: var(--Gray-4, #bdbdbd);
   font-size: 64px;
   font-weight: 300;
-  line-height: 64px; 
+  line-height: 64px;
 }
-.our-products-first-list{
+.our-products-first-list {
   list-style-type: none;
   display: flex;
   gap: 30px;
   margin-top: 60px;
 }
-.our-products-second-list{
+.our-products-second-list {
   list-style-type: none;
   margin-top: 30px;
   display: flex;
   gap: 30px;
 }
-.image-link-conteiner{
-  background:linear-gradient( to right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8) ), url(./img/our_project1.png);
+.image-link-conteiner {
+  background: linear-gradient(
+      to right,
+      rgba(51, 51, 51, 0.8),
+      rgba(51, 51, 51, 0.8)
+    ),
+    url(./img/our_project1.png);
   max-width: 570px;
   max-height: 255px;
   transition: 1s;
-cursor: pointer;
+  cursor: pointer;
 }
-.image-link-conteiner:hover{
-  transform: scale(1.2); 
+.image-link-conteiner:hover {
+  transform: scale(1.2);
 }
-.button-our-projects{
+.button-our-projects {
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -349,84 +356,86 @@ cursor: pointer;
   padding-left: 79px;
   padding-bottom: 53px;
   margin-top: 14px;
-  cursor: pointer;  
+  cursor: pointer;
   transition: 1s;
 }
-.button-our-projects:hover{
-  transform: scale(1.2); 
+.button-our-projects:hover {
+  transform: scale(1.2);
 }
-.details{
-   color: #FFF;
+.details {
+  color: #fff;
   font-size: 64px;
   font-weight: 700;
   line-height: 64px;
   padding-top: 48px;
   padding-left: 79px;
-  
 }
-.button-svg-arrow-details{
+.button-svg-arrow-details {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
   fill: rgba(255, 255, 255, 1);
 }
-.all-projects-button{
-  color: #FFF;
-font-size: 12px;
-font-weight: 400;
-line-height: 12px; /* 100% */
-letter-spacing: 2.4px;
-text-transform: uppercase;
+.all-projects-button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
   background: var(--Gray-1, #333);
   display: flex;
- margin-top: 30px;
- flex-shrink: 0;   
- align-items: center;
- text-align: center;
- width: 222px;
-height: 71px;
-flex-shrink: 0;
-padding-left: 39px;
-gap: 12px;
-border: none;
-margin-left: 948px; 
-transition: 1s;
-cursor: pointer;  
+  margin-top: 30px;
+  flex-shrink: 0;
+  align-items: center;
+  text-align: center;
+  width: 222px;
+  height: 71px;
+  flex-shrink: 0;
+  padding-left: 39px;
+  gap: 12px;
+  border: none;
+  margin-left: 948px;
+  transition: 1s;
+  cursor: pointer;
 }
-.all-projects-button:hover{
-  transform: scale(1.2); 
+.all-projects-button:hover {
+  transform: scale(1.2);
 }
-.arrow-svg-all-projects{
+.arrow-svg-all-projects {
   width: 24px;
-height: 24px;
-flex-shrink: 0;
-fill: #FFF;
+  height: 24px;
+  flex-shrink: 0;
+  fill: #fff;
 }
-.contacts-with-us-text{
-  color: var(--Gray-4, #BDBDBD);
-font-size: 64px;
-font-style: normal;
-font-weight: 300;
-line-height: 64px; 
+
+/* CONTACTS-SECTION */
+
+.contacts-with-us-text {
+  color: var(--Gray-4, #bdbdbd);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px;
 }
-.contacts-section{
+.contacts-section {
   margin-top: 120px;
   margin-left: 135px;
 }
-.image-and-picture-container{
+.image-and-picture-container {
   display: flex;
   gap: 30px;
 }
-.contacts-form{
+.contacts-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 22px;
 }
-.contacts-input{
-  background: #F3F3F3;
+.contacts-input {
+  background: #f3f3f3;
   border: none;
-  color: #8D8D8D;
+  color: #8d8d8d;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -453,7 +462,7 @@ line-height: 64px;
   transform: translateY(-50%);
   width: 24px;
   height: 23.262px;
-  background: #FFF;
+  background: #fff;
   border-radius: 4px;
   transition: 0.2s ease-in;
   background-color: rgba(243, 243, 243, 1);
@@ -464,7 +473,7 @@ line-height: 64px;
   display: inline-block;
   width: 24px;
   height: 23.262px;
-  background-image: url("./img/check.svg");
+  background-image: url('./img/check.svg');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -478,10 +487,10 @@ line-height: 64px;
   transform: translate(-50%, -50%) scale(1);
 }
 
-.contacts-text-area{
-  background: #F3F3F3;
+.contacts-text-area {
+  background: #f3f3f3;
   border: none;
-  color: #8D8D8D;
+  color: #8d8d8d;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.56px;
@@ -507,157 +516,157 @@ line-height: 64px;
   position: relative;
   padding-left: 30px;
 }
-.privacy-button{
-  color: #FFF;
-font-size: 12px;
-font-weight: 400;
-line-height: 12px; /* 100% */
-letter-spacing: 2.4px;
-text-transform: uppercase;
+.privacy-button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
   background: var(--Gray-1, #333);
   display: flex;
- margin-top: 21px;
- flex-shrink: 0;   
- align-items: center;
- text-align: center;
- width: 222px;
-height: 71px;
-flex-shrink: 0;
-padding-left: 39px;
-gap: 12px;
-border: none;
-margin-bottom: 120px;
-transition: 1s;
-cursor: pointer;
-} 
-.privacy-button:hover{
-  transform: scale(1.2); 
+  margin-top: 21px;
+  flex-shrink: 0;
+  align-items: center;
+  text-align: center;
+  width: 222px;
+  height: 71px;
+  flex-shrink: 0;
+  padding-left: 39px;
+  gap: 12px;
+  border: none;
+  margin-bottom: 120px;
+  transition: 1s;
+  cursor: pointer;
 }
-footer{
-   background: #2C2C2C;
+.privacy-button:hover {
+  transform: scale(1.2);
 }
-.footer-conteiner{
+
+/* FOOTER */
+
+footer {
+  background: #2c2c2c;
+  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+}
+.footer-conteiner {
   display: flex;
-  background: #2C2C2C;
+  background: #2c2c2c;
 }
-.logo-footer{
+.logo-footer {
   margin-left: 116px;
   padding-top: 58px;
   width: 145px;
   height: 94px;
   fill: white;
 }
-.nav-footer{
+.nav-footer {
   list-style-type: none;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.42px;
   margin-top: 58px;
   margin-left: 99px;
 }
-.information-text{
-  color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.information-text {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.element-nav{
+.element-nav {
   margin-bottom: 25px;
 }
 
-.contacts-footer{
+.contacts-footer {
   margin-top: 58px;
   list-style-type: none;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.42px;
   margin-left: 157px;
 }
-.contacts-element{
+.contacts-element {
   margin-bottom: 25px;
 }
-.geo{
+.geo {
   max-width: 314px;
   max-height: 72px;
 }
-.line{
-  border-top: 2px solid #FFF;
+.line {
+  border-top: 2px solid #fff;
   stroke-width: 1px;
-stroke: #FFF;
-opacity: 0.1;
+  stroke: #fff;
+  opacity: 0.1;
 }
-.protection-of-rights{
+.protection-of-rights {
   text-align: center;
   margin-top: 24px;
   padding-bottom: 24px;
-  color: rgba(200, 200, 200, 0.50);
+  color: rgba(200, 200, 200, 0.5);
   font-family: 'Open Sans', sans-serif;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px; /* 183.333% */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
-.svg-message{
+.svg-message {
   width: 16px;
-height: 11px;
-flex-shrink: 0;
-margin-right: 14px;
+  height: 11px;
+  flex-shrink: 0;
+  margin-right: 14px;
 }
-.svg-tele{
+.svg-tele {
   width: 16.01px;
   height: 16px;
   flex-shrink: 0;
   margin-right: 14px;
 }
-.svg-geo{
+.svg-geo {
   width: 11px;
   height: 16px;
   flex-shrink: 0;
   margin-right: 19px;
 }
-.social-text{
-  color: #FFF;
-font-size: 16px;
-font-weight: 700;
-line-height: normal;
-margin-top:  58px;
-max-height: 20px;
+.social-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 58px;
+  max-height: 20px;
 }
-.social-footer{
+.social-footer {
   display: flex;
   list-style-type: none;
   gap: 40px;
   margin-top: 23px;
 }
-.svg-facebook{
+.svg-facebook {
   width: 10px;
   height: 19px;
   flex-shrink: 0;
-
 }
-.svg-link-in{
+.svg-link-in {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
 }
-.svg-twitter{
+.svg-twitter {
   width: 22px;
   height: 17px;
   flex-shrink: 0;
 }
-.svg-pintrst{
+.svg-pintrst {
   width: 14px;
   height: 19px;
   flex-shrink: 0;
 }
-.social-conteiner{
+.social-conteiner {
   margin-left: 71px;
-}
-footer{
-  font-family: 'TT Hoves Pro Trial Variable', sans-serif;
 }

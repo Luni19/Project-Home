@@ -2,168 +2,220 @@
 <html lang="en,ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
+        <!-- HEADER -->
+
         <header>
             <nav class="navigation">
                 <svg class="mainLogo">
                     <use href="./img/symbol-defs.svg#icon-main-logo"></use>
                 </svg>
                 <ul class="navigation-list">
-                    <li class="navigation-element">ГЛАВНАЯ</li>
-                    <li class="navigation-element">ГАЛЕРЕЯ</li>
-                    <li class="navigation-element">ПРОЕКТЫ</li>
-                    <li class="navigation-element">СЕРТИФИКАТЫ</li>
-                    <li class="navigation-element">КОНТАКТЫ</li>
+                    <li class="navigation-element"><a href="#tittle-1">ГЛАВНАЯ</a></li>
+                    <li class="navigation-element"><a href="#tittle-2">ГАЛЕРЕЯ</a></li>
+                    <li class="navigation-element"><a href="#tittle-2">ПРОЕКТЫ</a></li>
+                    <li class="navigation-element"><a href="">СЕРТИФИКАТЫ</a></li>
+                    <li class="navigation-element"><a href="#tittle-3">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
         </header>
+
+        <!-- HERO-SECTION -->
 
         <section class="hero-section">
             <div class="button-container">
                 <h1 class="main-text">PROJECT<span class="home-word">HOME</span></h1>
                 <ul class="button-list">
-                    <li><button type="button" class="button-left">
+                    <li>
+                        <button type="button" class="button-left">
                             <svg class="arrow-svg">
                                 <use href="/img/icon-l-r.svg#icon-ico-shape-1"></use>
                             </svg>
-                        </button></li>
-                    <li><button type="button" class="button-right">
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="button-right">
                             <svg class="arrow-svg">
                                 <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
                             </svg>
-                        </button></li>
+                        </button>
+                    </li>
                 </ul>
             </div>
             <div class="button-and-picture">
-                <button type="button" class="look-button">ВЗГЛЯНУТЬ
+                <button type="button" class="look-button">
+                    ВЗГЛЯНУТЬ
                     <svg class="button-svg-arrow">
                         <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
                     </svg>
                 </button>
-                <img src="./img/hero_img.png" alt="image">
+                <img src="./img/hero_img.png" alt="image" />
             </div>
         </section>
 
-        <section>
+        <!-- ABOUT-COMPANY-SECTION -->
+
+        <section id="tittle-1">
             <div class="about-company-container">
                 <ul class="about-company-imagelist">
                     <ul class="first-image-list">
-                        <li class="first-image"><img src="./img/About_company1.png" alt="image"></li>
-                        <li class="second-image"><img src="./img/about _company2.png" alt="image"></li></ul>
-                    <ul class="second-image-list">
-                        <li><img src="./img/about company3.png" alt="image"></li></ul>
+                        <li class="first-image">
+                            <img src="./img/About_company1.png" alt="image" />
+                        </li>
+                        <li class="second-image">
+                            <img src="./img/about _company2.png" alt="image" />
+                        </li>
                     </ul>
-                    <div class="about-company-text-container">
+                    <ul class="second-image-list">
+                        <li><img src="./img/about company3.png" alt="image" /></li>
+                    </ul>
+                </ul>
+                <div class="about-company-text-container">
                     <h2 class="about-company-tittle">О компании</h2>
-                    <p class="about-company-text"> 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, 
-                        remaining essentially unchanged.
+                    <p class="about-company-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
                     </p>
-                    <button class="about-company-button" type="button".
-                    >ЧИТАТЬ<svg class="button-svg-arrow">
-                        <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
-                    </svg></button>
+                    <button class="about-company-button" type="button">
+                        ЧИТАТЬ<svg class="button-svg-arrow">
+                            <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </section>
 
+        <!--MAIN-TASKS-SECTION-->
+
         <section class="Main-goals">
             <div>
                 <h2 class="main-tasks-text">Основные задачи</h2>
-                <ul class="tasks-list"> 
-                    <li class="tasks-list-fragmet"><span class="number">1</span><p class="tasks-list-fragmet-text">Создание комфортных условий и повышение качества обслуживания клиентов</p></li>
-                    <li class="tasks-list-fragmet"><span class="number">2</span><p class="tasks-list-fragmet-text-second">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, 
-                        закупки нового оборудования и усиленной рекламы на рынке</p></li>
+                <ul class="tasks-list">
+                    <li class="tasks-list-fragmet">
+                        <span class="number">1</span>
+                        <p class="tasks-list-fragmet-text">
+                            Создание комфортных условий и повышение качества обслуживания
+                            клиентов
+                        </p>
+                    </li>
+                    <li class="tasks-list-fragmet">
+                        <span class="number">2</span>
+                        <p class="tasks-list-fragmet-text-second">
+                            Постоянно совершенствовать качество предоставляемых услуг путем
+                            обучения персонала, закупки нового оборудования и усиленной
+                            рекламы на рынке
+                        </p>
+                    </li>
                 </ul>
             </div>
         </section>
 
-        <section class="our-products-section">
+        <!-- GALLERY-SECTION -->
+
+        <section class="our-products-section" id="tittle-2">
             <div class="galley-container">
                 <h2 class="our-products-text">Наши проекты</h2>
                 <ul class="our-products-first-list">
-                    <li><div class="image-link-conteiner"><p class="details">ДОСУГОВЫЙ
-                        ЦЕНТР</p>
-                        <button class="button-our-projects" type="button">ПОДРОБНЕЕ<svg class="button-svg-arrow-details">
-                            <use href="./img/icon-l-r.svg#icon-ico-shape"></use>
-                        </svg></button>
-                    </div></li>
-                    <li><img src="./img/our_project2.png" alt="image"></li>
-                 </ul>
-                 <ul class="our-products-second-list">
-                    <li><img src="./img/our_project3.png" alt="image"></li>
-                    <li><img src="./img/our_project4.png" alt="image"></li>
-                    <li><img src="./img/our_project5.png" alt="image"></li>
+                    <li>
+                        <div class="image-link-conteiner">
+                            <p class="details">ДОСУГОВЫЙ ЦЕНТР</p>
+                            <button class="button-our-projects" type="button">
+                                ПОДРОБНЕЕ<svg class="button-svg-arrow-details">
+                                    <use href="./img/icon-l-r.svg#icon-ico-shape"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    <li><img src="./img/our_project2.png" alt="image" /></li>
                 </ul>
-                <button class="all-projects-button" type="button">ВСЕ ПРОЕКТЫ  <svg class="arrow-svg-all-projects">
-                    <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
-                </svg></button>
+                <ul class="our-products-second-list">
+                    <li><img src="./img/our_project3.png" alt="image" /></li>
+                    <li><img src="./img/our_project4.png" alt="image" /></li>
+                    <li><img src="./img/our_project5.png" alt="image" /></li>
+                </ul>
+                <button class="all-projects-button" type="button">
+                    ВСЕ ПРОЕКТЫ
+                    <svg class="arrow-svg-all-projects">
+                        <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
+                    </svg>
+                </button>
             </div>
         </section>
 
-        <section class="contacts-section">
-                <h2 class="contacts-with-us-text">Связаться с нами</h2>
-                <div class="image-and-picture-container">
+        <!-- CONTACTS-SECTION -->
+
+        <section class="contacts-section" id="tittle-3">
+            <h2 class="contacts-with-us-text">Связаться с нами</h2>
+            <div class="image-and-picture-container">
                 <form class="contacts-form" for="">
-                    <input class="contacts-input" type="text" placeholder="Имя"/>
-                    <input class="contacts-input" type="text" placeholder="Номер телефона*"/>
-                    <input class="contacts-input" type="text" placeholder="E-mail*"/>
-                    <input class="contacts-input" type="text" placeholder="Интересующий товар/услуга"/>
+                    <input class="contacts-input" type="text" placeholder="Имя" />
+                    <input class="contacts-input" type="text" placeholder="Номер телефона*" />
+                    <input class="contacts-input" type="text" placeholder="E-mail*" />
+                    <input class="contacts-input" type="text" placeholder="Интересующий товар/услуга" />
                     <textarea class="contacts-text-area" type="text" placeholder="Сообщение*"></textarea>
                 </form>
-                <img src="./img/contacts_with_us.png" alt="">
+                <img src="./img/contacts_with_us.png" alt="" />
             </div>
-                <label class="privacy-checkbox" for="privacy-checkbox">
-                    <input type="checkbox" id="privacy-checkbox" class="real-checkbox">
-                    <span class="custom-checkbox"></span>
-                    Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+            <label class="privacy-checkbox" for="privacy-checkbox">
+                <input type="checkbox" id="privacy-checkbox" class="real-checkbox" />
+                <span class="custom-checkbox"></span>
+                Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
             </label>
-                  <button type="button" class="privacy-button">ОТПРАВИТЬ<svg class="arrow-svg-all-projects">
+            <button type="button" class="privacy-button">
+                ОТПРАВИТЬ<svg class="arrow-svg-all-projects">
                     <use href="/img/icon-l-r.svg#icon-ico-shape"></use>
-                </svg></button> 
+                </svg>
+            </button>
         </section>
     </div>
-        
-    
+
+    <!-- FOOTER  -->
+
     <footer>
-            <div class="footer-conteiner">
-                <svg class="logo-footer">
-                    <use href="./img/symbol-defs.svg#icon-main-logo"></use>
-                </svg>
-                <ul class="nav-footer">
-                    <li  class="information-text element-nav">Информация</li>
-                    <li class="element-nav" >Главная</li>
-                    <li class="element-nav" >Галерея</li>
-                    <li class="element-nav" >Проекты</li>
-                    <li class="element-nav" >Сертификаты</li>
-                    <li class="element-nav" >Контакты</li>
-                </ul> 
-                <ul class="contacts-footer">
-                    <li class="information-text contacts-element">Контакты</li>
-                    <li class="contacts-element geo"> <svg class="svg-geo">
+        <div class="footer-conteiner">
+            <svg class="logo-footer">
+                <use href="./img/symbol-defs.svg#icon-main-logo"></use>
+            </svg>
+            <ul class="nav-footer">
+                <li class="information-text element-nav">
+                    <a href="#tittle-1">Информация</a>
+                </li>
+                <li class="element-nav"><a href="#tittle-1">Главная</a></li>
+                <li class="element-nav"><a href="#tittle-2">Галерея</a></li>
+                <li class="element-nav"><a href="#tittle-3">Проекты</a></li>
+                <li class="element-nav"><a href="#tittle-4">Сертификаты</a></li>
+                <li class="element-nav"><a href="#tittle-5">Контакты</a></li>
+            </ul>
+            <ul class="contacts-footer">
+                <li class="information-text contacts-element">Контакты</li>
+                <li class="contacts-element geo">
+                    <svg class="svg-geo">
                         <use href="./img/footer.svg#icon-geo"></use>
-    
-                       </svg>100000, Республика  Казахстан, г. Караганда, ул. Телевизионная 10</li>
-                    <li class="contacts-element"><svg class="svg-tele">
+                    </svg>100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10
+                </li>
+                <li class="contacts-element">
+                    <svg class="svg-tele">
                         <use href="./img/footer.svg#icon-tele"></use>
-
-
-                    </svg>+38 (000) 000 00 00</li>
-                    <li class="contacts-element"><svg class="svg-message">
+                    </svg>+38 (000) 000 00 00
+                </li>
+                <li class="contacts-element">
+                    <svg class="svg-message">
                         <use href="./img/footer.svg#icon-message"></use>
-                    </svg>mail@gmail.com</li>
-                </ul>
-                <div class="social-conteiner">
+                    </svg>mail@gmail.com
+                </li>
+            </ul>
+            <div class="social-conteiner">
                 <p class="social-text">Социальные сети</p>
                 <ul class="social-footer">
                     <li>
@@ -173,26 +225,27 @@
                     </li>
                     <li>
                         <svg class="svg-twitter">
-                            <use href="./img/footer.svg#icon-twitter">
-                            </use>
+                            <use href="./img/footer.svg#icon-twitter"></use>
                         </svg>
                     </li>
                     <li>
                         <svg class="svg-link-in">
-                        <use href="./img/footer.svg#icon-Linked-In">
-                        </use>
-                    </svg>
-                </li>
+                            <use href="./img/footer.svg#icon-Linked-In"></use>
+                        </svg>
+                    </li>
                     <li>
                         <svg class="svg-pintrst">
-                        <use href="./img/footer.svg#icon-pininterest">
-                        </use>
-                    </svg></li>
+                            <use href="./img/footer.svg#icon-pininterest"></use>
+                        </svg>
+                    </li>
                 </ul>
             </div>
-            </div>
-            <div class="line"></div>
-                <p class="protection-of-rights">© 2019 Digital Project. Все права защищены.</p>
-        </footer>
+        </div>
+        <div class="line"></div>
+        <p class="protection-of-rights">
+            © 2019 Digital Project. Все права защищены.
+        </p>
+    </footer>
 </body>
+
 </html>
